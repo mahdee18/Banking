@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSP Bank Ltd. - Deposit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sidebar Start -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>MSP Bank Ltd.</h2>
+        <ul>
+            <li><a href="dashboard.html">Home <i class="fas fa-home"></i></a></li>
+            <li><a target="_blank" href="withdraw.html">Withdraw <i class="fa-solid fa-money-simple-from-bracket"></i></a></li>
+            <li><a target="_blank" href="deposit.html">Deposit <i class="fa-solid fa-money-from-bracket"></i></i></a></li>
+            <li><a href="#">Transaction History <i class="fas fa-history"></i></a></li>
+            <li><a href="#">Contact <i class="fa-regular fa-address-card"></i></a></li>
+            <li><a target="_blank" href="login.html">Log Out <i class="fas fa-sign-out"></i></a></li>
+        </ul> 
+        <div class="social_media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="main_content"> 
+        <div class="info">
+          <div class="main">
+            <h1 class="text-3xl font-bold ">Amount you deposited !!</h1>
+          <main class="mx-auto">
+            <section class="">
+                <div class="grid grid-cols-3 gap-4 text-center">
+                    <div id="deposit" class="bg-blue-400 mt-10 p-12 rounded">
+                        <h3 class="text-white text-2xl">Deposit</h3>
+                        <h2 class="text-white text-4xl">$<span id="deposit-total">00</span></h2>
+                    </div>
+                    <div id="total" class="bg-yellow-400 mt-10 p-8 rounded">
+                        <h3 class="text-white text-2xl">Total</h3>
+                        <h2 class="text-white text-4xl">$<span id="balance-total">1240</span></h2>
+                    </div>
+                </div>
+            </section>
+                
+          </main>
+          <div class="grid grid-cols-2 gap-3 text-left">
+            <div class=" p-10 mt-10 bg-blue-200 rounded">
+              <h3 class="text-bold mb-3">Please Deposit</h3>
+                <input id="user-deposit" class="border-2 bg-blue-100 rounded text-black border-gray-400 mb-5 px-3" type="text" placeholder="$ Enter your Amount"><br>
+                <button id="deposit-btn" class=" bg-blue-400 text-white p-2 rounded ">Deposit</button>
+            </div>
+          </div>
+          
+          </div>
+      </div>
+    </div>
+</div>
+<!-- Sidebar End -->
+</body>
+</html>
